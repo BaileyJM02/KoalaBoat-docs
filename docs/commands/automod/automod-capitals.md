@@ -1,8 +1,14 @@
-# Auto Moderation
-These are things that will be beneficial to your user experience.
+# Capitals
+Configures whether or not automod should punish a user for having higher than a set percentage of capitals in their message.
 
-## `=automod-capitals`
-Throughout this documentation, the exclamation mark (`!`) is used as the standard prefix. For example `!help`
+# Usage
+`automod-capitals [enable | disable] [warn | mute | kick | soft-ban | temp-ban | ban] [percentage]`
 
-## Aliases
-We allow for the removal of the hyphen (`-`) from within all command names containing them. For example: `!auto-mod-invites` is also callable as `!automodinvites`.
+# Aliases
+`automodcapitals` and `capitals`
+
+# Examples
+`automod-capitals enable soft-ban 50%`
+
+# Permission
+`manageGuild`
