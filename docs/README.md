@@ -1,3 +1,3 @@
-# Headline
+# Welcome {docsify-ignore-all}
 
-> An awesome project.
+> This is the documentation for KoalaBoat. 
