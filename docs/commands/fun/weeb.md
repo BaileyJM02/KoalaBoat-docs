@@ -2,7 +2,7 @@
 This command returns a weeb type.
 
 >### Bug Alert
->There is currently a bug within this command, please see [this Trello card](https://trello.com/c/BTKVz41x).
+>There is currently a bug within this command, we are aware of the issue and a fix is underway.
 
 ## Usage
 `weeb <type | list>`

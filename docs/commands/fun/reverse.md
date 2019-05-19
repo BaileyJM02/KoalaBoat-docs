@@ -2,7 +2,7 @@
 Makes your text go backwards, it's like a roller coaster!
 
 >### Bug Alert
->There is currently a bug within this command, please see [this Trello card](https://trello.com/c/EYZU28YV).
+>There is currently a bug within this command, we are aware of the issue and a fix is underway.
 
 ## Usage
 `reverse <phrase>`
