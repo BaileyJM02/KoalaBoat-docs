@@ -1,16 +1,15 @@
-# 
+# Invite Info
+This command allows you to view information related to a Discord invite link.
 
 ## Usage
-``
+`invite-info <invite>`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`inviteinfo`
 
 ## Examples
-- `` This will 
-- `` This will 
+- `invite-info fortnite` This will display information regarding [discord.gg/fortnite](https://discord.gg/fortnite).
+- `invite-info https://discord.gg/48twdh8` This will display information regarding a KoalaBoat invite link.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

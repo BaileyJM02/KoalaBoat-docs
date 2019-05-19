@@ -1,31 +1,15 @@
-# Capitals
-Configures whether or not automod should punish a user for having higher than a set percentage of capitals in their message.
+# User Info
+This command shows information regarding either you or another user.
 
 ## Usage
-`automod-capitals [enable | disable] [warn | mute | kick | soft-ban | temp-ban | ban] [percentage]`
+`user-info [user]`
 
 ## Aliases
-`automodcapitals` and `capitals`
+`userinfo` and `user`
 
 ## Examples
-- `automod-capitals enable soft-ban 50%` This will [soft-ban](/commands/moderation/soft-ban) a user if their message consists of a ratio of half or more capitals to lowercase letters. For example: *WHAT IS this?!*
-- `automod-capitals enable ban 90%` This will [ban](/commands/moderation/ban) a user if their message consists of a ratio of 90% or more capitals to lowercase letters. For example: *AGHHHHHHHh*
-- `automod-capitals disable` This will disable this command and will allow a user to post a message with any ratio of capital to lowercase letters without a# 
-
-## Usage
-``
-
-## Aliases
-`` and `` | *There are currently no aliases*
-
-## Examples
-- `` This will 
-- `` This will 
+- `user-info` This will display your own information.
+- `user-info jake` This will display Jake's information. If more than one user is found, an option list will be displayed.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
-For this command to work, KoalaBoat doesn't require any extra permissions within your server. punished. 
-
-## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server. 
+For this command to work, KoalaBoat doesn't require any extra permissions within your server.

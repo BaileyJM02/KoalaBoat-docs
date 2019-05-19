@@ -1,4 +1,6 @@
-# 
+# Say
+Repeats a message in the same or another channel.
+> **Flags:** [say](/commands/misc/say) has an `--embed` flag, this allows the message to be embeded.
 
 ## Usage
 ``
@@ -11,6 +13,4 @@
 - `` This will 
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+For this command to work, you are required to have the **Manage Messages** (`manageMessages`)  permission within the server you wish to use this command.

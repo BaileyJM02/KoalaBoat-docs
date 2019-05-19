@@ -1,16 +1,14 @@
-# 
+# Node Info
+This command displays a list of voice nodes.
 
 ## Usage
-``
+`node-info`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`nodeinfo` and `nodes`
 
 ## Examples
-- `` This will 
-- `` This will 
+- `node-info` This will display a list of all voice nodes available. 
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

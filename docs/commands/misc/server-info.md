@@ -1,16 +1,14 @@
-# 
+# Server Info
+This command displays information regarding the server.
 
 ## Usage
-``
+`server-info`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`serverinfo` and `server`
 
 ## Examples
-- `` This will 
-- `` This will 
+- `server-info` This will display information regarding the server you are in. 
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.
