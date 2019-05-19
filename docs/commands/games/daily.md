@@ -1,16 +1,14 @@
-# 
+# Daily
+This command rewards you with your daily reward. As it's a daily reward, it has a cool down of 24 hours.
 
 ## Usage
-``
+`daily`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+*There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `daily` This will reward you with your daily reward.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.
