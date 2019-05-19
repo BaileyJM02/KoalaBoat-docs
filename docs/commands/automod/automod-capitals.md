@@ -13,4 +13,4 @@ Configures whether or not automod should punish a user for having higher than a 
 - `automod-capitals disable` This will disable this command and will allow a user to post a message with any ratio of capital to lowercase letters without being punished. 
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server. 
+For this command to work, KoalaBoat requires the **Manage Server** (`manageGuild`)  permission within your server. 
