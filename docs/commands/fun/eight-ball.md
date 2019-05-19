@@ -1,16 +1,15 @@
-# 
+# Eight Ball
+Asks a question to the very magical eight ball. 
 
 ## Usage
-``
+`eight-ball <question>`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`eightball` and `8ball`
 
 ## Examples
-- `` This will 
-- `` This will 
+- `eight-ball Is KoalaBoat awesome?` This will *hopefully* return yes, because it is... I guess it depends on how the eight ball is feeling?
+- `eight-ball Should I write more docs?` Lets see shall we?
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

@@ -1,16 +1,14 @@
-# 
+# Dice
+Rolls the 6 sided die. Did you know the singular for dice is die?
 
 ## Usage
-``
+`dice`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+*There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `dice` This will return a random number between 1 and 6.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

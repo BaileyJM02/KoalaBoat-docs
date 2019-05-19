@@ -1,16 +1,18 @@
-# 
+# Emojify
+Turns text into related emojis.
 
 ## Usage
-``
+`emojify <text>`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+*There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `emojify happy` This will return a string of happy emojis. 
+- `emojify sad` This will return a string of sad emojis.
+- `emojify KoalaBoat` This will return a sting of emojis relating to KoalaBoat.
+
+> These example are vague but this command will aim to produce emojis similar to the text, for example "KoalaBoat" returns animals but "docs" returns some video emojis.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

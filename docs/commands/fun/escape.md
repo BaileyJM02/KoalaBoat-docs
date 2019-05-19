@@ -1,16 +1,14 @@
-# 
+# Escape
+This command returns the escape sequence for an emoji.
 
 ## Usage
-``
+`escape <emoji>`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+*There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `escape 😇` This will return the unencoded UTF-8 code for 😇.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

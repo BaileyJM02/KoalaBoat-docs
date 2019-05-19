@@ -1,16 +1,14 @@
-# 
+# Flip
+Flip a coin. I bet heads!
 
 ## Usage
-``
+`flip`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`coinflip`
 
 ## Examples
-- `` This will 
-- `` This will 
+- `flip` This will return either "heads" or "tails".
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

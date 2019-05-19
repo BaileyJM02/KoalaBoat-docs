@@ -1,16 +1,14 @@
-# 
+# Joke
+This command returns a Dad joke from [icanhazdadjoke.com](https://icanhazdadjoke.com/).
 
 ## Usage
-``
+`joke`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`dadjoke`
 
 ## Examples
-- `` This will 
-- `` This will 
+- `joke` This will return a random Dad joke. On an unrelated note, I cut my finger chopping cheese, but I think that I may have grater problems.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

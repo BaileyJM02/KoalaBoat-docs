@@ -1,16 +1,16 @@
-# 
+# Leet
+This command leetifies text.
 
 ## Usage
-``
+`leet <phrase>`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+*There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `leet Hello World!` This will leetify the text and return "H3110 W0r1d!". Interesting.
+- `leet Discord...` This will leetify the text and return "Di5c0rd...", new password anyone?
+- `leet KoalaBoat` 00p5 I 7hink I br0k3 i7!
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

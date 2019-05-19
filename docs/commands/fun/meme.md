@@ -1,16 +1,14 @@
-# 
+# Meme
+Yeets a meme from [r/memes](https://www.reddit.com/r/memes/).
 
 ## Usage
-``
+`meme`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+*There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `meme` This will return a random meme. *Hopefully it's a good one.*
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.
