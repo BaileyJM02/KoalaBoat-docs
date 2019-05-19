@@ -1,6 +1,9 @@
 - Getting started
 
-  - [Prerequisites](prerequisites.md)
+  - [Invite to Discord](/invite.md)
+  - [Prerequisites](/prerequisites.md)
+  - [Further Support](/support.md)
+  - [Contributing](/contributing.md)
 
 - Customization
 
