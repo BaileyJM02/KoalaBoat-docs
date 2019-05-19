@@ -1,16 +1,15 @@
-# 
+# Avatar
+This command shows an enlarged image of either your own or another users avatar.
 
 ## Usage
-``
+`avatar [user]`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+*There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `avatar` This will display your own enlarged avatar.
+- `avatar jake` This will display Jake's enlarged avatar. If more than one user is found, an option list will be displayed.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

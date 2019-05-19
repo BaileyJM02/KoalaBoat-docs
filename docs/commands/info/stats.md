@@ -1,16 +1,13 @@
-# 
-
+# Stats 
+This command allows you to view the bot's advanced statistics.
 ## Usage
-``
+`stats`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`botinfo`
 
 ## Examples
-- `` This will 
-- `` This will 
+- `stats` This will display all of the statistics.  
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

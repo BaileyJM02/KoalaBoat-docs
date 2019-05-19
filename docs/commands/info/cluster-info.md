@@ -1,16 +1,14 @@
-# 
+# Cluster Info
+This command displays a list of clusters that are running.
 
 ## Usage
-``
+`cluster-info`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`clusterinfo` and `clusters` | *There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `cluster-info` This will display a list of clusters.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

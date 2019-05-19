@@ -1,16 +1,14 @@
-# 
+# Case Info
+This command allows you to view information regarding a case. 
 
 ## Usage
-``
+`case-info <caseID>`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`caseinfo` and `case` | *There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `case-info 1` This will retrun the information regarding case number one.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

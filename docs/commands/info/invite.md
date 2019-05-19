@@ -1,16 +1,14 @@
-# 
+# Invite
+This command dispays a list of invite links; one for KoalaBoat and one for the Discord server.
 
 ## Usage
-``
+`invite`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+*There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `invite` This will display a list of links.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

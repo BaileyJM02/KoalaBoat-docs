@@ -1,16 +1,14 @@
-# 
-
+# Role Info
+This command displays information about a role such as creation date and number of members.
 ## Usage
-``
+`role-info <role>`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+`roleinfo` and `role`
 
 ## Examples
-- `` This will 
-- `` This will 
+- `role-info @Admin` This will get the information for the role "Admin".
+- `role-info bot` This will get the information for the role "bot". If more than one role is found, an option list will be displayed. 
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.

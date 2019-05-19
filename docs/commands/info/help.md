@@ -1,16 +1,15 @@
-# 
+# Help
+Shows help for a command or catagory.
 
 ## Usage
-``
+`help [command]`
 
 ## Aliases
-`` and `` | *There are currently no aliases*
+*There are currently no aliases*
 
 ## Examples
-- `` This will 
-- `` This will 
+- `help ping` This will give a help dialog for the command [ping](/commands/info/ping).
+- `help` This will display a list of all commands available.
 
 ## Permission
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
-
 For this command to work, KoalaBoat doesn't require any extra permissions within your server.
