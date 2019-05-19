@@ -14,5 +14,5 @@ Turns text into related emojis.
 
 > These example are vague but this command will aim to produce emojis similar to the text, for example "KoalaBoat" returns animals but "docs" returns some video emojis.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

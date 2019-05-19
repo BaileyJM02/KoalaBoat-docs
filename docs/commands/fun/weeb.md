@@ -14,5 +14,5 @@ This command returns a weeb type.
 - `weeb list` This will return a list of all available weeb types.
 - `weeb bang` This will return a weeb of the type "bang".
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

@@ -10,5 +10,5 @@ This command returns a random "never have I ever" question from [our secret data
 ## Examples
 - `never-have-i-ever` This will return a random "never have I ever" question. I got never have I slept all night in the back yard. *It was in a tent...*
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

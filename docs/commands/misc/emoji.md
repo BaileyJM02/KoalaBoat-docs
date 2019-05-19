@@ -11,5 +11,5 @@ This command allows you to view a larger version of a default or custom emoji.
 - `emoji :smile:` This will enlarge the emoji ":smile:".
 - `emoji :lul:` This will enlarge the custom emoji from a server you are in.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

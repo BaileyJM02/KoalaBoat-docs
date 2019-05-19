@@ -11,5 +11,5 @@ This command allows you to chooses an item between multiple items, each separate
 - `choose pizza;cake` This will choose between either "pizza" or "cake".
 - `choose eat cake; drink milk; bake a pizza` This will choose between "eat cake", "drink milk" and "bake a pizza".
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

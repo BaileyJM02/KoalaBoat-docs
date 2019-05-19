@@ -11,5 +11,5 @@ Asks a question to the very magical eight ball.
 - `eight-ball Is KoalaBoat awesome?` This will *hopefully* return yes, because it is... I guess it depends on how the eight ball is feeling?
 - `eight-ball Should I write more docs?` Lets see shall we?
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

@@ -10,5 +10,5 @@ This command dispays a list of invite links; one for KoalaBoat and one for the D
 ## Examples
 - `invite` This will display a list of links.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

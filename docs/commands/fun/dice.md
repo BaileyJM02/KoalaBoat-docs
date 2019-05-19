@@ -10,5 +10,5 @@ Rolls the 6 sided die. Did you know the singular for dice is die?
 ## Examples
 - `dice` This will return a random number between 1 and 6.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

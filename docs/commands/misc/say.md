@@ -12,5 +12,5 @@ Repeats a message in the same or another channel.
 - `` This will 
 - `` This will 
 
-## Permission
+## Permissions
 For this command to work, you are required to have the **Manage Messages** (`manageMessages`)  permission within the server you wish to use this command.

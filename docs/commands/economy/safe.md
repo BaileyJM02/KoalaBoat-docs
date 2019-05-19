@@ -11,5 +11,5 @@ This command is the opposite of [hand](/commands/economy/hand) and moves the mon
 - `safe all` This will move all of the available currency from your hand, into your safe.
 - `safe 250` This will move 250 out of your hand into your safe, leaving whatever else is in your hand to remain there.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

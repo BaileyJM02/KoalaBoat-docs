@@ -12,5 +12,5 @@ This command leetifies text.
 - `leet Discord...` This will leetify the text and return "Di5c0rd...", new password anyone?
 - `leet KoalaBoat` 00p5 I 7hink I br0k3 i7!
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

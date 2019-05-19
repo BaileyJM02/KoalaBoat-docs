@@ -14,5 +14,5 @@ Converts your text into ASCII art.
 >### Warning {docsify-ignore}
 >Using commands with emojis such as `ascii 🍕` or including an emote such as `ascii :bobo:` will either not work or return an undesired outcome.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

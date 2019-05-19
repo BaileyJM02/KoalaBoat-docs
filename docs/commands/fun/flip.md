@@ -10,5 +10,5 @@ Flip a coin. I bet heads!
 ## Examples
 - `flip` This will return either "heads" or "tails".
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

@@ -10,5 +10,5 @@ Yeets a meme from [r/memes](https://www.reddit.com/r/memes/).
 ## Examples
 - `meme` This will return a random meme. *Hopefully it's a good one.*
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

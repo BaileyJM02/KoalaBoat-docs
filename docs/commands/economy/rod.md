@@ -12,5 +12,5 @@ This command lists the fishing rods you own, can sell or can buy and allows you 
 - `rod buy gold` This will allow you to buy the rod "gold". To buy this, you will need to have the correct amount of currency currently within your hand.
 - `rod sell silver` This will allow you to sell the rod "silver", the money gained from this will be placed into your hand.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server. 
+## Permissions
+For this command to work, you don't require any extra permissions within the server. 

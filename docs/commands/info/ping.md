@@ -10,5 +10,5 @@ A simple ping command to test latency of the bot.
 ## Examples
 - `ping` This will return the response latency for the bot.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

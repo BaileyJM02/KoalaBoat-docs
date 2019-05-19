@@ -11,5 +11,5 @@ This command takes your fishing rod to the pond to earn money from fishing. To v
 - `fish gold` This will send your gold rod to go fishing, you need to have this rod to be able to use it.
 - `fish silver` This will send your silver rod to go fishing, you need to have this rod to be able to use it.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

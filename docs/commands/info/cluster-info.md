@@ -10,5 +10,5 @@ This command displays a list of clusters that are running.
 ## Examples
 - `cluster-info` This will display a list of clusters.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

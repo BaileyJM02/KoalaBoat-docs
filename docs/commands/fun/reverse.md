@@ -14,5 +14,5 @@ Makes your text go backwards, it's like a roller coaster!
 - `reverse Hello World` This will return the reversed phrase of "Hello World".
 - `reverse dlorW olleH` This will return the reversed phrase of "dlorW olleH", so "Hello World".
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

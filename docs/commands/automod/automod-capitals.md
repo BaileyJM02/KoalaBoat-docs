@@ -12,5 +12,5 @@ Configures whether or not automod should punish a user for having higher than a 
 - `automod-capitals enable ban 90%` This will [ban](/commands/moderation/ban) a user if their message consists of a ratio of 90% or more capitals to lowercase letters. For example: *AGHHHHHHHh*
 - `automod-capitals disable` This will disable this command and will allow a user to post a message with any ratio of capital to lowercase letters without being punished. 
 
-## Permission
-For this command to work, KoalaBoat requires the **Manage Server** (`manageGuild`)  permission within your server. 
+## Permissions
+For this command to work, you are required to have the **Manage Server** (`manageGuild`)  permission within the server you wish to use this command.

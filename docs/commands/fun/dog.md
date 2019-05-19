@@ -10,5 +10,5 @@ Returns a random cat picture from [shibe.online](https://shibe.online) (An API s
 ## Examples
 - `dog` This will return a random dog picture, changing each time.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

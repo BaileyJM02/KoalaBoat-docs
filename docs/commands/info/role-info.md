@@ -10,5 +10,5 @@ This command displays information about a role such as creation date and number 
 - `role-info @Admin` This will get the information for the role "Admin".
 - `role-info bot` This will get the information for the role "bot". If more than one role is found, an option list will be displayed. 
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

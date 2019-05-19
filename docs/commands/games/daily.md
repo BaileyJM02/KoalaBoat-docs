@@ -10,5 +10,5 @@ This command rewards you with your daily reward. As it's a daily reward, it has 
 ## Examples
 - `daily` This will reward you with your daily reward.
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.

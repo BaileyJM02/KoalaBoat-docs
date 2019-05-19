@@ -10,5 +10,5 @@ This command displays information regarding the server.
 ## Examples
 - `server-info` This will display information regarding the server you are in. 
 
-## Permission
-For this command to work, KoalaBoat doesn't require any extra permissions within your server.
+## Permissions
+For this command to work, you don't require any extra permissions within the server.
