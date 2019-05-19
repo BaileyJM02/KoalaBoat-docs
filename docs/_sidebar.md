@@ -13,7 +13,7 @@
 - Commands
   - [Auto Moderation](/commands/automod/)
   - [Economy](/commands/economy/)
-  - [Run](/commands/fun/)
+  - [Fun](/commands/fun/)
   - [Games](/commands/games/)
   - [Info](/commands/info/)
   - [Misc](/commands/misc/)
