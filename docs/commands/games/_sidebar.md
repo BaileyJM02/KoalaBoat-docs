@@ -8,11 +8,12 @@
   - [Prefix](/customization/prefix.md)
 
 - Commands
-  - [**Auto Moderation**](/commands/automod/)
-    - [Capitals](/commands/automod/automod-capitals.md)
+  - [Auto Moderation](/commands/automod/)
   - [Economy](/commands/economy/)
   - [Fun](/commands/fun/)
-  - [Games](/commands/games/)
+  - [**Games**](/commands/games/)
+    - [Daily](/commands/games/daily.md)
+    - [Fish](/commands/games/fish.md)
   - [Info](/commands/info/)
   - [Misc](/commands/misc/)
   - [Moderation](/commands/moderation/)

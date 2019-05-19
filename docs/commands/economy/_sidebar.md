@@ -8,9 +8,13 @@
   - [Prefix](/customization/prefix.md)
 
 - Commands
-  - [**Auto Moderation**](/commands/automod/)
-    - [Capitals](/commands/automod/automod-capitals.md)
-  - [Economy](/commands/economy/)
+  - [Auto Moderation](/commands/automod/)
+  - [**Economy**](/commands/economy/)
+    - [Balance](/commands/economy/balance.md)
+    - [Hand](/commands/economy/hand.md)
+    - [Leaderboard](/commands/economy/leaderboard.md)
+    - [Rod](/commands/economy/rod.md)
+    - [Safe](/commands/economy/safe.md)
   - [Fun](/commands/fun/)
   - [Games](/commands/games/)
   - [Info](/commands/info/)

@@ -8,8 +8,7 @@
   - [Prefix](/customization/prefix.md)
 
 - Commands
-  - [**Auto Moderation**](/commands/automod/)
-    - [Capitals](/commands/automod/automod-capitals.md)
+  - [Auto Moderation](/commands/automod/)
   - [Economy](/commands/economy/)
   - [Fun](/commands/fun/)
   - [Games](/commands/games/)
@@ -19,7 +18,12 @@
   - [Music](/commands/music/)
   - [NSFW](/commands/nsfw/)
   - [Settings](/commands/settings/)
-  - [Utils](/commands/utils/)
+  - [**Utils**](/commands/utils/)
+    - [Edit Role](/commands/utils/edit-role.md)
+    - [Mass Role](/commands/utils/mass-role.md)
+    - [Reaction Role](/commands/utils/reaction-role.md)
+    - [Staff Status Roles](/commands/utils/staff-status-roles.md)
+    - [Staff Status](/commands/utils/staff-status.md)
 
 - [Invite to Discord](invite.md)
 - [Docs Changelog](changelog.md)
