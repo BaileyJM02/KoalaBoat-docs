@@ -11,6 +11,6 @@ a#
 - `` This will 
 
 ## Permissions
-For this command to work, KoalaBoat requires the **Manage Guild** (`manageGuild`)  permission within your server.
+For this command to work, you are required to have the **Manage Server** (`manageGuild`)  permission within the server you wish to use this command.
 
 For this command to work, you don't require any extra permissions within the server.
