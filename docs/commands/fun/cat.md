@@ -12,3 +12,7 @@ Returns a random cat picture from [shibe.online](https://shibe.online) (An API s
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

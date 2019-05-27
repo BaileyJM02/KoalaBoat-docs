@@ -13,3 +13,7 @@ This command shows information regarding either you or another user.
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

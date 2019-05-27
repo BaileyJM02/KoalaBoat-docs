@@ -5,3 +5,7 @@
 - [Leaderboard](/commands/economy/leaderboard.md)
 - [Rod](/commands/economy/rod.md)
 - [Safe](/commands/economy/safe.md)
+
+----
+
+**Last updated: {docsify-updated}**

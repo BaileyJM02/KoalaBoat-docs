@@ -13,3 +13,7 @@ This command allows you to chooses an item between multiple items, each separate
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

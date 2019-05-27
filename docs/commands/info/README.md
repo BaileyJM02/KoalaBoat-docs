@@ -9,3 +9,7 @@
 - [Ping](/commands/info/ping.md)
 - [Role Info](/commands/info/role-info.md)
 - [Stats](/commands/info/stats.md)
+
+----
+
+**Last updated: {docsify-updated}**

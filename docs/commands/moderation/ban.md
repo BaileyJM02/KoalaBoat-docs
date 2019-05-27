@@ -15,3 +15,7 @@ Ban a user from the server.
 
 ## Permissions
 For this command to work, you are required to have the **Ban Members** (`banMembers`)  permission within the server you wish to use this command.
+
+----
+
+**Last updated: {docsify-updated}**

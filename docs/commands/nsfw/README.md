@@ -7,3 +7,7 @@
 - [Neko](/commands/nsfw/neko.md)
 - [Porn gif](/commands/nsfw/porngif.md)
 - [Rule 34](/commands/nsfw/rule34.md)
+
+----
+
+**Last updated: {docsify-updated}**

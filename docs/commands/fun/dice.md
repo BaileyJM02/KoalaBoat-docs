@@ -12,3 +12,7 @@ Rolls the 6 sided die. Did you know the singular for dice is die?
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

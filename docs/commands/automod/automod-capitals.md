@@ -14,3 +14,7 @@ Configures whether or not automod should punish a user for having higher than a 
 
 ## Permissions
 For this command to work, you are required to have the **Manage Server** (`manageGuild`)  permission within the server you wish to use this command.
+
+----
+
+**Last updated: {docsify-updated}**

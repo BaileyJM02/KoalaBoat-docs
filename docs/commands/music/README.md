@@ -14,3 +14,7 @@
 - [Skip](/commands/music/skip.md)
 - [Stop](/commands/music/stop.md)
 - [Volume](/commands/music/volume.md)
+
+----
+
+**Last updated: {docsify-updated}**

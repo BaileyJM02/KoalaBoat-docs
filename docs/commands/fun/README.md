@@ -18,3 +18,7 @@
 - [Roblox User](/commands/fun/roblox-user.md)
 - [Truth or Dare](/commands/fun/truth-or-dare.md)
 - [Weeb](/commands/fun/weeb.md)
+
+----
+
+**Last updated: {docsify-updated}**

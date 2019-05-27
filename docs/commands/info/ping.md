@@ -12,3 +12,7 @@ A simple ping command to test latency of the bot.
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

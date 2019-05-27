@@ -13,3 +13,7 @@ Kick a member from the server.
 
 ## Permissions
 For this command to work, you are required to have the **Kick Members** (`kickMembers`)  permission within the server you wish to use this command.
+
+----
+
+**Last updated: {docsify-updated}**

@@ -10,3 +10,7 @@
 - [Nickname Log](/commands/settings/nickname-log.md)
 - [Role Log](/commands/settings/role-log.md)
 - [Set Prefix](/commands/settings/set-prefix.md)
+
+----
+
+**Last updated: {docsify-updated}**

@@ -12,3 +12,7 @@ This command displays information about a role such as creation date and number 
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

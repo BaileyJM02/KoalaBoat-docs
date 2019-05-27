@@ -24,5 +24,4 @@
   - [Settings](/commands/settings/)
   - [Utils](/commands/utils/)
 
-- [Invite to Discord](invite.md)
 - [Docs Changelog](changelog.md)

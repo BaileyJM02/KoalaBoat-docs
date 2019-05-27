@@ -14,3 +14,7 @@ This command returns a truth or dare from [our secret database](/53cr37-d474b453
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

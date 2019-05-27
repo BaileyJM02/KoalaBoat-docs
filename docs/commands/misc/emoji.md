@@ -13,3 +13,7 @@ This command allows you to view a larger version of a default or custom emoji.
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

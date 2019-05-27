@@ -5,3 +5,7 @@
 - [Reaction Role](/commands/utils/reaction-role.md)
 - [Staff Status Roles](/commands/utils/staff-status-roles.md)
 - [Staff Status](/commands/utils/staff-status.md)
+
+----
+
+**Last updated: {docsify-updated}**

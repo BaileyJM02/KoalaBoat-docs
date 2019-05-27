@@ -6,21 +6,82 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="/_css/css.css"> <!-- Creative naming, I know.... -->
 </head>
 <body>
+
+<!--{{/* <br/>
+<div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+        <input ref="toggletheme" type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+</div> */}}-->
+
+
   <div id="app"></div>
   <script>
     window.$docsify = {
+      coverpage: true,
+      loadNavbar: true,
       loadSidebar: true,
       name: 'KoalaBoat',
       repo: 'https://github.com/baileyjm02/KoalaBoat-docs',
       subMaxLevel: 5,
       maxLevel: 5,
       auto2top: true,
-      autoHeader: true
+      autoHeader: true,
+      formatUpdated: '{DD}/{MM}/{YYYY} {HH}:{mm}',
+      // complete configuration parameters
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        // Headline depth, 1 - 6
+        depth: 1,
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        // To avoid search index collision
+        // between multiple websites under the same domain
+        namespace: 'website-1',
+      },
+      // https://github.com/zanfab/docsify-plugin-flexible-alerts
+      'flexible-alerts': {
+        style: 'callout'
+      }
     }
   </script>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+    const currentTheme = localStorage.getItem('theme');
+
+    if (currentTheme) {
+        document.documentElement.setAttribute('data-theme', currentTheme);
+      
+        if (currentTheme === 'dark') {
+            toggleSwitch.checked = true;
+        }
+    }
+
+    function switchTheme(e) {
+        if (e.target.checked) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+        }
+        else {
+          document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+        }    
+    }
+
+    toggleSwitch.addEventListener('change', switchTheme, false);
+  </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
 </body>
 </html>

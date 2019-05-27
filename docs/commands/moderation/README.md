@@ -13,3 +13,7 @@
 - [Unmute](/commands/moderation/un-mute.md)
 - [Voice Kick](/commands/moderation/voice-kick.md)
 - [Warn](/commands/moderation/warn.md)
+
+----
+
+**Last updated: {docsify-updated}**

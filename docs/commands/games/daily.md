@@ -12,3 +12,7 @@ This command rewards you with your daily reward. As it's a daily reward, it has 
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

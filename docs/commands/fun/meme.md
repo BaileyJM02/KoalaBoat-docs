@@ -12,3 +12,7 @@ Yeets a meme from [r/memes](https://www.reddit.com/r/memes/).
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

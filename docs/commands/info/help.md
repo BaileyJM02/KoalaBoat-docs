@@ -13,3 +13,7 @@ Shows help for a command or catagory.
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

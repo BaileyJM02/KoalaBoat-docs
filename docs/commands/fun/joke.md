@@ -12,3 +12,7 @@ This command returns a Dad joke from [icanhazdadjoke.com](https://icanhazdadjoke
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

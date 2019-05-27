@@ -12,3 +12,7 @@ This command displays a list of voice nodes.
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

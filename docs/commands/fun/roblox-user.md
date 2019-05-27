@@ -12,3 +12,7 @@ Allows you to view information on a [Roblox](htps://roblox.com) user.
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

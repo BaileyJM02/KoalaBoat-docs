@@ -13,3 +13,7 @@ This command is the opposite of [hand](/commands/economy/hand) and moves the mon
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

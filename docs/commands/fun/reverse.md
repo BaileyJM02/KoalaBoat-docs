@@ -1,7 +1,7 @@
 # Reverse
 Makes your text go backwards, it's like a roller coaster!
 
->### Bug Alert
+> [!WARNING]
 >There is currently a bug within this command, we are aware of the issue and a fix is underway.
 
 ## Usage
@@ -16,3 +16,7 @@ Makes your text go backwards, it's like a roller coaster!
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

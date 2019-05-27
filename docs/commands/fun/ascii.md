@@ -11,8 +11,12 @@ Converts your text into ASCII art.
 - `ascii Woohoo` This will output "Woohoo" in ASCII art.
 - `ascii foo bar` This will output "foo bar" in ASCII art, quotation marks are not needed for phrases with spaces.
 
->### Warning {docsify-ignore}
+> [!WARNING]
 >Using commands with emojis such as `ascii 🍕` or including an emote such as `ascii :bobo:` will either not work or return an undesired outcome.
 
 ## Permissions
 For this command to work, you don't require any extra permissions within the server.
+
+----
+
+**Last updated: {docsify-updated}**

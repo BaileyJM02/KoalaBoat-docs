@@ -10,3 +10,7 @@
 - [**NSFW**](/commands/nsfw/)
 - [**Settings**](/commands/settings/)
 - [**Utils**](/commands/utils/)
+
+----
+
+**Last updated: {docsify-updated}**
