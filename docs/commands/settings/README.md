@@ -13,4 +13,4 @@
 
 ----
 
-**Last update pushed: {docsify-updated}**
+**Docs updated: {docsify-updated}**

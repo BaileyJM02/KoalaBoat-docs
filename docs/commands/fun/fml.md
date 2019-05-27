@@ -18,4 +18,4 @@ For this command to work, you don't require any extra permissions within the ser
 
 ----
 
-**Last update pushed: {docsify-updated}**
+**Docs updated: {docsify-updated}**

@@ -6,4 +6,4 @@ To invite KoalaBoat to your Discord server, please click [this link](https://koa
 
 ----
 
-**Last update pushed: {docsify-updated}**
+**Docs updated: {docsify-updated}**

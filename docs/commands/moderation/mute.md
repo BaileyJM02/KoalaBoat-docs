@@ -18,4 +18,4 @@ For this command to work, you are required to have the **Manage Roles** (`manage
 
 ----
 
-**Last update pushed: {docsify-updated}**
+**Docs updated: {docsify-updated}**
