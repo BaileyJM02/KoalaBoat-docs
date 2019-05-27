@@ -4,4 +4,4 @@ You can contribute to these docs on the [GitHub repo](https://github.com/baileyj
 
 ----
 
-**Last updated: {docsify-updated}**
+**Last update pushed: {docsify-updated}**

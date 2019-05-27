@@ -2,4 +2,4 @@ So receive support, please join the official KoalaBoat Discord server by followi
 
 ----
 
-**Last updated: {docsify-updated}**
+**Last update pushed: {docsify-updated}**

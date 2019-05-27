@@ -16,4 +16,4 @@ For this command to work, you don't require any extra permissions within the ser
 
 ----
 
-**Last updated: {docsify-updated}**
+**Last update pushed: {docsify-updated}**

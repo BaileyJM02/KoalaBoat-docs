@@ -18,4 +18,4 @@ For this command to work, you are required to have the **Ban Members** (`banMemb
 
 ----
 
-**Last updated: {docsify-updated}**
+**Last update pushed: {docsify-updated}**

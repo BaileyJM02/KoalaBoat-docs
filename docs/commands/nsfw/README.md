@@ -10,4 +10,4 @@
 
 ----
 
-**Last updated: {docsify-updated}**
+**Last update pushed: {docsify-updated}**

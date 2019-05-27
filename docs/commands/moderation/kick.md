@@ -16,4 +16,4 @@ For this command to work, you are required to have the **Kick Members** (`kickMe
 
 ----
 
-**Last updated: {docsify-updated}**
+**Last update pushed: {docsify-updated}**

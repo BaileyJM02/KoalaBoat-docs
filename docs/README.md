@@ -8,4 +8,4 @@ I personally recommend you read the [prerequisites](/prerequisites.md) before yo
 
 ----
 
-**Last updated: {docsify-updated}**
+**Last update pushed: {docsify-updated}**
