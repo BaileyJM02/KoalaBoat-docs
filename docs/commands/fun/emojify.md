@@ -19,4 +19,4 @@ For this command to work, you don't require any extra permissions within the ser
 
 ----
 
-**Docs updated: {docsify-updated}**
+**Last updated: {docsify-updated}**

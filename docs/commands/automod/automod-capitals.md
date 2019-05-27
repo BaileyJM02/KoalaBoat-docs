@@ -17,4 +17,4 @@ For this command to work, you are required to have the **Manage Server** (`manag
 
 ----
 
-**Docs updated: {docsify-updated}**
+**Last updated: {docsify-updated}**

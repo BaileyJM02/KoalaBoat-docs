@@ -5,4 +5,4 @@ KoalaBoat allows great customization of its features. To change the prefix, plea
 
 ----
 
-**Docs updated: {docsify-updated}**
+**Last updated: {docsify-updated}**

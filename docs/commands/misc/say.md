@@ -17,4 +17,4 @@ For this command to work, you are required to have the **Manage Messages** (`man
 
 ----
 
-**Docs updated: {docsify-updated}**
+**Last updated: {docsify-updated}**

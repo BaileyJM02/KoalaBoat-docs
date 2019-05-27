@@ -8,4 +8,4 @@ Initial Commit.
 
 ----
 
-**Docs updated: {docsify-updated}**
+**Last updated: {docsify-updated}**

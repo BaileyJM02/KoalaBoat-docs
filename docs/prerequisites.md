@@ -15,4 +15,4 @@ We allow for the removal of the hyphen (`-`) from within all command names conta
 
 ----
 
-**Docs updated: {docsify-updated}**
+**Last updated: {docsify-updated}**
