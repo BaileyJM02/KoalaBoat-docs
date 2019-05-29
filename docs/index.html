@@ -9,17 +9,10 @@
   <link rel="stylesheet" href="/_css/css.css"> <!-- Creative naming, I know.... -->
 </head>
 <body>
-
-<!--{{/* <br/>
-<div class="theme-switch-wrapper">
-    <label class="theme-switch" for="checkbox">
-        <input ref="toggletheme" type="checkbox" id="checkbox" />
-        <div class="slider round"></div>
-  </label>
-</div> */}}-->
-
-
-  <div id="app"></div>
+  <div id="themeable">
+    <div id="app" :data-theme="theme" :title="theme">
+    </div>
+  </div>
   <script>
     window.$docsify = {
       //coverpage: true,
@@ -34,7 +27,7 @@
       autoHeader: true,
       formatUpdated: '{DD}/{MM}/{YYYY} {HH}:{mm}',
       // complete configuration parameters
-      search: {
+      /* search: {
         maxAge: 86400000, // Expiration time, the default one day
         paths: 'auto',
         placeholder: 'Type to search',
@@ -45,7 +38,7 @@
         // To avoid search index collision
         // between multiple websites under the same domain
         namespace: 'website-1',
-      },
+      }, */
       // https://github.com/zanfab/docsify-plugin-flexible-alerts
       'flexible-alerts': {
         style: 'callout'
@@ -57,34 +50,66 @@
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
     }
-    const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-    const currentTheme = localStorage.getItem('theme');
+    function domReady(fn) {
+  // If we're early to the party
+  document.addEventListener("DOMContentLoaded", fn);
+  // If late; I mean on time.
+  if (document.readyState === "interactive" || document.readyState === "complete" ) {
+    
+      fn();
+    
+  }
+}
+var toggleSwitch,currentTheme = null;
 
-    if (currentTheme) {
-        document.documentElement.setAttribute('data-theme', currentTheme);
-      
-        if (currentTheme === 'dark') {
-            toggleSwitch.checked = true;
-        }
+function themechange() {
+  setTimeout(function(){
+  toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+  currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
     }
+}
 
-    function switchTheme(e) {
-        if (e.target.checked) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            localStorage.setItem('theme', 'dark');
-        }
-        else {
-          document.documentElement.setAttribute('data-theme', 'light');
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else {        document.documentElement.setAttribute('data-theme', 'light');
           localStorage.setItem('theme', 'light');
-        }    
-    }
+    }    
+}
 
-    toggleSwitch.addEventListener('change', switchTheme, false);
+toggleSwitch.addEventListener('change', switchTheme, false);
+ }, 444);
+}
+
+function switcharoo() {
+      if (currentTheme === 'dark') {
+        document.querySelector('.theme-switch input[type="checkbox"]').checked = true;
+      }
+}
+
+domReady(() => {
+  setTimeout(function(){
+    switcharoo()
+    themechange()
+  }, 500);
+  window.onhashchange = function() {
+    switcharoo()
+    themechange()
+  }
+});
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!--<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>-->
+  <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
 </body>
 </html>

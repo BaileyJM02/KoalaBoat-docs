@@ -16,15 +16,76 @@
         --title-color: #364149;
         --heading-color: #2c3e50;
         --darkless: rgba(255, 255, 255, 0.8);
+        --kbd: #ccc;
+        --hr-color: #eee;
+        --md-color: #777;
+        --blockquote-color: #858585;
+        --code-color: #f8f8f8;
+        --code-text-color: #e96900;
+        --callout: #eee;
     }
     
     [data-theme="dark"] {
         --theme-color: #2297FE;
         --text-color: #fff;
         --title-color: #f8f8f8;
-        --bg-color: #2c2f33;
+        --bg-color: #2A2D34;
         --heading-color: #f8f8f8;
-        --darkless: rgba(44, 47, 51, 0.8);
+        --darkless: rgba(44, 47, 51, 0);
+        --kbd: #0e0e0e;
+        --hr-color: #ccc;
+        --md-color: #ccc;
+        --blockquote-color: #eee;
+        --code-color: #858585;
+        --code-text-color: #eee;
+        --callout: #2A2D34;
+    }
+    /* Alert stuff */
+    
+    .alert.callout {
+        border: 1px solid var(--callout)!important;
+        border-left-width: .25rem;
+        border-radius: .25rem;
+        background: var(--darkless)!important;
+    }
+    
+    .alert.callout.warning {
+        border-left-color: #f0ad4e!important;
+    }
+    
+    .alert.callout.warning .title {
+        color: #f0ad4e;
+    }
+    
+    .alert.callout.tip {
+        border-left-color: #28a745!important;
+    }
+    
+    .alert.callout.tip .title {
+        color: #28a745;
+    }
+    
+    .alert.callout.info {
+        border-left-color: #17a2b8!important;
+    }
+    
+    .alert.callout.info .title {
+        color: #17a2b8;
+    }
+    
+    .alert.callout.danger {
+        border-left-color: #dc3545!important;
+    }
+    
+    .alert.callout.danger .title {
+        color: #dc3545;
+    }
+    
+    .alert.flat {
+        border-radius: .125rem;
+        color: #383d41;
+        background-color: #e2e3e5;
+        border: 1px solid #d6d8db;
     }
     
     body:not(.ready) {
@@ -102,7 +163,8 @@
     }
     
     kbd {
-        border: solid 1px #ccc;
+        border: solid 1px var(--kbd);
+        ;
         border-radius: 3px;
         display: inline-block;
         font-size: 12px !important;
@@ -406,7 +468,8 @@
     
     .markdown-section hr {
         border: none;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid var(--hr-color);
+        ;
         margin: 2em 0;
     }
     
@@ -828,7 +891,7 @@
     }
     
     .markdown-section h6 {
-        color: #777;
+        color: var(--md-color);
         font-size: 1rem;
     }
     
@@ -851,7 +914,7 @@
     
     .markdown-section blockquote {
         border-left: 4px solid var(--theme-color);
-        color: #858585;
+        color: var(--blockquote-color);
         margin: 2em 0;
         padding-left: 20px;
     }
@@ -870,9 +933,9 @@
     }
     
     .markdown-section code {
-        background-color: #f8f8f8;
+        background-color: var(--code-color);
         border-radius: 2px;
-        color: #e96900;
+        color: var(--code-text-color);
         font-family: 'Roboto Mono', Monaco, courier, monospace;
         font-size: 0.8rem;
         margin: 0 2px;
@@ -883,7 +946,7 @@
     .markdown-section pre {
         -moz-osx-font-smoothing: initial;
         -webkit-font-smoothing: initial;
-        background-color: #f8f8f8;
+        background-color: var(--code-color);
         font-family: 'Roboto Mono', Monaco, courier, monospace;
         line-height: 1.5rem;
         margin: 1.2em 0;
@@ -993,7 +1056,7 @@
     .markdown-section pre>code {
         -moz-osx-font-smoothing: initial;
         -webkit-font-smoothing: initial;
-        background-color: #f8f8f8;
+        background-color: var(--code--color);
         border-radius: 2px;
         color: #525252;
         display: block;
@@ -1040,9 +1103,9 @@
     
     .theme-switch {
         display: inline-block;
-        height: 34px;
+        height: 17px;
         position: relative;
-        width: 60px;
+        width: 30px;
     }
     
     .theme-switch input {
@@ -1057,18 +1120,18 @@
         position: absolute;
         right: 0;
         top: 0;
-        transition: .4s;
+        transition: .2s;
     }
     
     .slider:before {
         background-color: #fff;
-        bottom: 4px;
+        bottom: 2px;
         content: "";
-        height: 26px;
-        left: 4px;
+        height: 13px;
+        left: 2px;
         position: absolute;
-        transition: .4s;
-        width: 26px;
+        transition: .2s;
+        width: 13px;
     }
     
     input:checked+.slider {
@@ -1076,11 +1139,11 @@
     }
     
     input:checked+.slider:before {
-        transform: translateX(26px);
+        transform: translateX(13px);
     }
     
     .slider.round {
-        border-radius: 34px;
+        border-radius: 17px;
     }
     
     .slider.round:before {
