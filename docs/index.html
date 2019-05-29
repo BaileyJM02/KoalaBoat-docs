@@ -50,61 +50,62 @@
     if (typeof navigator.serviceWorker !== 'undefined') {
       navigator.serviceWorker.register('sw.js')
     }
+
     function domReady(fn) {
-  // If we're early to the party
-  document.addEventListener("DOMContentLoaded", fn);
-  // If late; I mean on time.
-  if (document.readyState === "interactive" || document.readyState === "complete" ) {
-    
-      fn();
-    
-  }
-}
-var toggleSwitch,currentTheme = null;
+      // If we're early to the party
+      document.addEventListener("DOMContentLoaded", fn);
+      // If late; I mean on time.
+      if (document.readyState === "interactive" || document.readyState === "complete") {
 
-function themechange() {
-  setTimeout(function(){
-  toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-  currentTheme = localStorage.getItem('theme');
+        fn();
 
-if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-  
-    if (currentTheme === 'dark') {
-        toggleSwitch.checked = true;
+      }
     }
-}
+    var toggleSwitch, currentTheme = null;
 
-function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
+    function themechange() {
+      setTimeout(function () {
+        toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+        currentTheme = localStorage.getItem('theme');
+
+        if (currentTheme) {
+          document.documentElement.setAttribute('data-theme', currentTheme);
+
+          if (currentTheme === 'dark') {
+            toggleSwitch.checked = true;
+          }
+        }
+
+        function switchTheme(e) {
+          if (e.target.checked) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+          } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+          }
+        }
+
+        toggleSwitch.addEventListener('change', switchTheme, false);
+      }, 444);
     }
-    else {        document.documentElement.setAttribute('data-theme', 'light');
-          localStorage.setItem('theme', 'light');
-    }    
-}
 
-toggleSwitch.addEventListener('change', switchTheme, false);
- }, 444);
-}
-
-function switcharoo() {
+    function switcharoo() {
       if (currentTheme === 'dark') {
         document.querySelector('.theme-switch input[type="checkbox"]').checked = true;
       }
-}
+    }
 
-domReady(() => {
-  setTimeout(function(){
-    switcharoo()
-    themechange()
-  }, 500);
-  window.onhashchange = function() {
-    switcharoo()
-    themechange()
-  }
-});
+    domReady(() => {
+      setTimeout(function () {
+        switcharoo()
+        themechange()
+      }, 500);
+      window.onhashchange = function () {
+        switcharoo()
+        themechange()
+      }
+    });
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
